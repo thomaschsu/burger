@@ -1,6 +1,6 @@
 <div class="text-center jumbotron">
     <h1 class="display-4">Eat-Dat-Burger!</h1>
-    <p class="lead">A simple burger app that lets you add and devour a burger of your choice.</p>
+    <p class="lead">A burger app that uses MySQL, Node, Handlebars.js, Express, ORM, JavaScript, HTML, and CSS to let you add and devour a burger of your choice. Input any burger of your choice.</p>
 </div>
 <div class="text-center">
    <img src="assets/img/burger.gif">
@@ -14,7 +14,7 @@
             {{#unless devoured}}
             <li>
                {{id}} - {{burger_name}}
-               <button class="devour-burger" style="color: #000" data-id="{{id}}">
+               <button class="devour-burger" data-id="{{id}}">
                DEVOUR!
                </button>
             </li>
@@ -22,8 +22,8 @@
             {{/each}}
          </ul>
       </div>
-      <div class="col-s width-fix">
-         <h3>Devoured Burgers</h3>
+      <div class="col-s width-fix-2">
+         <h3 style="color:#333">Devoured Burgers</h3>
          <ul>
             {{#each burgers}}
             {{#if devoured}}

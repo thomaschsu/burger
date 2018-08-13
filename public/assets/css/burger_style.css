@@ -2,15 +2,28 @@ ul {
     list-style: none;
 }
 .width-fix {
-    width: 50%;
+    width: 45%;
     float: left;
     text-align: center;
-    color: #FFF;
+    background-color: #eee;
+    margin: 0 10px;
+}
+.width-fix-2 {
+    width: 45%;
+    float: left;
+    text-align: center;
+    background-color: #eee;
+    margin: 0 10px;
+    color: #BDBDBD;
 }
 button {
     padding: 5px 10px;
-    background-color: #F5F5F5;
+    background-color: #EF5350;
+    color: #FFF !important;
     border: none;
+}
+button:hover {
+    background-color: #EF9A9A;
 }
 .devour-burger {
     margin-left: 10px;
@@ -20,4 +33,7 @@ li {
 }
 h3 {
     text-decoration: underline;
+}
+.jumbotron {
+    margin-bottom: 0 !important;
 }
