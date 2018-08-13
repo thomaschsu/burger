@@ -2,10 +2,9 @@
 $(function() {
   $(".devour-burger").on("click", function(event) {
     var id = $(this).data("id");
-    var newDevourer = $(this).data("newDevourer");
 
     var newDevourerState = {
-      devoured: 1
+      devoured: true
     };
 
     // Send the PUT request.
@@ -14,7 +13,7 @@ $(function() {
       data: newDevourerState
     }).then(
       function() {
-        console.log("Changed devourer to", newDevourer);
+        console.log("Changed devoured to true");
         // Reload the page to get the updated list
         location.reload();
       }
