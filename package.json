@@ -4,13 +4,14 @@
   "description": "Burger program that uses express, node, handlebars",
   "main": "server.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/thomaschsu/burger.git"
   },
-  "author": "",
+  "author": "Tom",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/thomaschsu/burger/issues"
