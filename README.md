@@ -1,7 +1,7 @@
 # Eat-Dat-Burger - Application
 
 ### Description
-A burger app that uses MySQL, Node, Handlebars.js, Express, ORM, JavaScript, HTML, and CSS to let you add and devour a burger of your choice. Input any burger of your choice.
+A burger app that uses MySQL, Node, Handlebars.js, Express, ORM, JavaScript, HTML, and CSS to let you add and devour a burger of your choice. Input any burger as well.
 
 - - -
 ### Demo
