@@ -25,20 +25,13 @@ A burger app that uses MySQL, Node, Handlebars.js, Express, ORM, JavaScript, HTM
 
 - - - 
 ### Heroku Live Link
-https://afternoon-river-28652.herokuapp.com/
-
-- - -
-
-### Instructions
-* Fill out 10 questions that have a scale of 1 to 5.
-* Receive a modal window that tells you your new best friend.
-* Enjoy!
+https://limitless-gorge-68400.herokuapp.com/
 
 - - -
 
 ### Additional Information
-1. User's best match is determined using an algorithm
-2. First convert user's results into an array
-3. Compare user's array against every other user's array
-4. The absolute value is used for each answer score
-5. The closest match is the user with the least amount of difference.
+1. Burgers are stored in MySQL
+2. Available burgers can be devoured and their "devoured" state is changed
+3. You can add any burger you like into the text area and hit submit.
+4. Handlebars is used for the template
+5. Enjoy.
